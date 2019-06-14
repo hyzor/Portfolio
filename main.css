@@ -51,8 +51,7 @@ h1 {
  */
 
 hr {
-  -webkit-box-sizing: content-box;
-          box-sizing: content-box; /* 1 */
+  box-sizing: content-box; /* 1 */
   height: 0; /* 1 */
   overflow: visible; /* 2 */
 }
@@ -240,8 +239,7 @@ fieldset {
  */
 
 legend {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box; /* 1 */
+  box-sizing: border-box; /* 1 */
   color: inherit; /* 2 */
   display: table; /* 1 */
   max-width: 100%; /* 1 */
@@ -272,8 +270,7 @@ textarea {
 
 [type="checkbox"],
 [type="radio"] {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box; /* 1 */
+  box-sizing: border-box; /* 1 */
   padding: 0; /* 2 */
 }
 
@@ -548,8 +545,7 @@ template {
 .annotationLayer .buttonWidgetAnnotation.pushButton > a:hover {
   opacity: 0.2;
   background: #ff0;
-  -webkit-box-shadow: 0px 2px 10px #ff0;
-          box-shadow: 0px 2px 10px #ff0;
+  box-shadow: 0px 2px 10px #ff0;
 }
 
 .annotationLayer .textAnnotation img {
@@ -564,8 +560,7 @@ template {
 .annotationLayer .buttonWidgetAnnotation.radioButton input {
   background-color: rgba(0, 54, 255, 0.13);
   border: 1px solid transparent;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   font-size: 9px;
   height: 100%;
   margin: 0;
@@ -630,13 +625,11 @@ template {
 }
 
 .annotationLayer .buttonWidgetAnnotation.checkBox input:checked:before {
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .annotationLayer .buttonWidgetAnnotation.checkBox input:checked:after {
-  -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .annotationLayer .buttonWidgetAnnotation.radioButton input:checked:before {
@@ -682,8 +675,7 @@ template {
   z-index: 200;
   max-width: 20em;
   background-color: #FFFF99;
-  -webkit-box-shadow: 0px 2px 5px #333;
-          box-shadow: 0px 2px 5px #333;
+  box-shadow: 0px 2px 5px #333;
   border-radius: 2px;
   padding: 0.6em;
   margin-left: 5px;
@@ -730,16 +722,14 @@ template {
  */
 /* Mixins */
 html {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -webkit-tap-highlight-color: transparent; }
 
 *,
 *::before,
 *::after {
-  -webkit-box-sizing: inherit;
-          box-sizing: inherit; }
+  box-sizing: inherit; }
 
 body {
   font-size: 1.6em;
